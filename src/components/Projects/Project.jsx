@@ -28,14 +28,14 @@ const Project = () => {
     <div className='container mx-auto p-6'>
         <h2 className='text-2xl text-center'>Roofing Projects</h2>
 
-        <div className='flex flex-col gap-3 mt-4 items-center'>
+        <div className='flex flex-col gap-3 mt-4 items-center md:flex-row md:flex-wrap'>
             {images.map(data => (
                 <div className=''>
-                    <img className='h-30 w-80 object-contain' src= {data.img} alt="roofing-projects" />
+                    <img className='h-30 w-80 lg:w-90  bg-contain  ' src= {data.img} alt="roofing-projects" />
                 </div>
             ))}
-        <button className='bg-black text-white p-2 mt-3'>Check Out Other Projects</button>
         </div>
+        <button className='bg-black text-white p-2 mt-3'>Check Out Other Projects</button>
     </div>
   )
 }

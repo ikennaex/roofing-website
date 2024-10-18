@@ -8,19 +8,19 @@ const RoofingServices = () => {
         { id: 3, title: "Roof Repairs", desc: "We offer roof leak repair service on all types of residential roofs.", btnInfo: "Get in Touch" }
     ])
     return (
-        <div className='container p-6 mx-auto'>
+        <section className='container p-6 mx-auto'>
             <h2 className='text-2xl text-center'>Roofing Services</h2>
 
-            <div className='md:flex gap-10'>
+            <div className='lg:flex gap-10'>
             {roofingServices.map(data => (
-            <div className='mt-2 bg-slate-200 text-center rounded-lg p-3' key = {data.id}>
+            <div className='mt-2 bg-slate-200 text-center rounded-lg p-3 md:py-11' key = {data.id}>
                 <h2 className='text-xl'>{data.title}</h2>
                 <p>{data.desc}</p>
                 <button className='mt-4 text-red-950'>{data.btnInfo}</button>
             </div>
             ))}
             </div>
-        </div>
+        </section>
     )
 }
 

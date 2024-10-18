@@ -9,7 +9,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-h2{
+h1,h2{
   font-family: "Lora", serif;
   font-weight: 700;
+}
+
+.herosection-img {
+  filter: brightness(40%)
 }

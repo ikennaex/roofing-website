@@ -4,7 +4,7 @@ import { companyName, heroimage } from '../../imports'
 const HeroSection = () => {
   return (
     <div className='relative'>
-        <img className='object-cover h-screen w-full lg:h-[49rem]' src={heroimage} alt="" />
+        <img className='herosection-img object-cover h-screen w-full lg:h-[49rem]' src={heroimage} alt="" />
         
         <div className=' flex flex-col container mx-auto absolute top-1/3 text-white p-6 md:text-left'>
 
