@@ -16,7 +16,7 @@ const RoofingServices = () => {
             <div className='mt-2 bg-slate-200 text-center rounded-lg p-3 md:py-11' key = {data.id}>
                 <h2 className='text-xl'>{data.title}</h2>
                 <p>{data.desc}</p>
-                <button className='mt-4 text-red-950'>{data.btnInfo}</button>
+                <button className='mt-4 text-red-600'>{data.btnInfo}</button>
             </div>
             ))}
             </div>

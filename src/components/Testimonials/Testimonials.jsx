@@ -6,22 +6,22 @@ const Testimonials = () => {
         {
             img: "https://images.pexels.com/photos/3619947/pexels-photo-3619947.jpeg?auto=compress&cs=tinysrgb&w=400",
             name:"Johnny Stones",
-            desc: "“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”"
+            desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio repellendus hic temporibus quia, quae rerum quibusdam eveniet tempora cupiditate deleniti sed modi vero cumque atque."
         },
         {
             img: "https://images.pexels.com/photos/3657140/pexels-photo-3657140.jpeg?auto=compress&cs=tinysrgb&w=400",
             name: "Jason Smith",
-            desc: "“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”"
+            desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio repellendus hic temporibus quia, quae rerum quibusdam eveniet tempora cupiditate deleniti sed modi vero cumque atque."
         },
         {
             img: "https://images.pexels.com/photos/995978/pexels-photo-995978.jpeg?auto=compress&cs=tinysrgb&w=400",
             name: "Cassandra James",
-            desc: "“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”"
+            desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio repellendus hic temporibus quia, quae rerum quibusdam eveniet tempora cupiditate deleniti sed modi vero cumque atque."
         },
         {
             img: "https://images.pexels.com/photos/2061302/pexels-photo-2061302.jpeg?auto=compress&cs=tinysrgb&w=400",
             name: "Johansson Bridget",
-            desc: "“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”"
+            desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio repellendus hic temporibus quia, quae rerum quibusdam eveniet tempora cupiditate deleniti sed modi vero cumque atque."
         },
       ]
 
