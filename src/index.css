@@ -17,3 +17,14 @@ h1,h2{
 .herosection-img {
   filter: brightness(40%)
 }
+
+section {
+  margin: 2rem 0;
+}
+
+@media (min-width: 1024px) {
+  section {
+    margin: 3.1rem 0;
+  }
+
+}

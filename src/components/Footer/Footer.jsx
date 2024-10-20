@@ -4,7 +4,8 @@ import { IoMdMail } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div className='flex flex-col gap-5 container mx-auto p-8 bg-red-950 items-center text-white'>
+    <div className='flex flex-col gap-5 p-8 bg-red-950 items-center text-white'>
+
         <div>
             2024 | Made with 💜
         </div>
@@ -14,6 +15,7 @@ const Footer = () => {
         <FaInstagram size={26} />
         <IoMdMail size={26} />
         </div>
+
     </div>
   )
 }

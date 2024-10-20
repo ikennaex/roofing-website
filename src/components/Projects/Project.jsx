@@ -25,18 +25,18 @@ const Project = () => {
         },
     ]
   return (
-    <div className='container mx-auto p-6'>
+    <section className='container mx-auto p-6'>
         <h2 className='text-2xl text-center'>Roofing Projects</h2>
 
-        <div className='flex flex-col gap-3 mt-4 items-center md:flex-row md:flex-wrap'>
+        <div className='flex gap-3 mt-4 items-center justify-center md:flex-row flex-wrap'>
             {images.map(data => (
-                <div className=''>
-                    <img className='h-30 w-80 lg:w-90  bg-contain  ' src= {data.img} alt="roofing-projects" />
+                <div className='w-60 lg:w-80'>
+                    <img className='h-56 w-full object-cover lg:h-80' src= {data.img} alt="roofing-projects" />
                 </div>
             ))}
         </div>
         <button className='bg-black text-white p-2 mt-3'>Check Out Other Projects</button>
-    </div>
+    </section>
   )
 }
 

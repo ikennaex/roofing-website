@@ -21,12 +21,12 @@ const AboutSection = () => {
 
 
     return (
-        <div className='container mx-auto md:flex'>
+        <section className='container mx-auto md:flex'>
             {aboutUsSection.map(data => (
                 <AboutInfo key = {data.id} data= {data } />
             ))}
             
-        </div>
+        </section>
     )
 }
 
